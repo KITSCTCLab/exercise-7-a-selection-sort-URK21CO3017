@@ -2,6 +2,12 @@ from typing import List
 
 def selectionSort(array, size) -> List[int]:
   # Write your code here
+  for i in range(len(data)):
+    mim = data[i]
+    for j in range(i+1, len(data)):
+      mim = j
+      data[mim] = data[i]
+      data[i] = data[mim]
 
 # Do not change the following code
 input_data = input()
